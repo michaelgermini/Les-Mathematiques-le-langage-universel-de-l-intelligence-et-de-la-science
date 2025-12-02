@@ -1,0 +1,57 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Fichiers temporaires
+*.tmp
+*.temp
+*~
+*.swp
+*.swo
+._*
+
+# Fichiers de sauvegarde
+*.bak
+*.backup
+*_backup
+*_old
+
+# Fichiers de logs
+*.log
+
+# Fichiers PowerShell temporaires
+*.ps1.bak
+
+# Fichiers de configuration IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Fichiers de compilation (si jamais on compile le livre)
+*.aux
+*.log
+*.out
+*.toc
+*.pdf
+*.dvi
+*.bbl
+*.blg
+*.synctex.gz
+
+# Fichiers Python (si jamais on ajoute des scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Fichiers Node.js (si jamais on ajoute des outils)
+node_modules/
+npm-debug.log
+yarn-error.log
+
